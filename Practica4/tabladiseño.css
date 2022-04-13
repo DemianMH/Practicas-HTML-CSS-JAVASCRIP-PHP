@@ -1,0 +1,21 @@
+img{
+  width: 10%;
+}
+table,th, td{
+  border: 1px solid black;
+  background-color:#C70039;
+
+}
+th, td{
+  text-align: center;
+  padding:center;
+  padding: 5px;
+  font-size: 12px;
+  font-style: arial;
+  color:white;
+}
+h2,h3,h4,h5,h6{
+  color:#F8C471;
+  font-size: 14px;
+  font-style: normal;
+}

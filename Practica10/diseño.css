@@ -1,0 +1,35 @@
+*{
+  font-style: normal;
+  font-family: arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.padre{
+  padding:0;
+  width: 400px;
+  background-color: #FFE400;
+  margin: 0 auto;
+  margin-top:100px;
+}
+input{
+  background-color:white;
+  margin:0 auto;
+  margin-top:10px;
+  margin-left: 50px;
+
+}
+option {
+  background-color:#FFD100 ;
+}
+select{
+  background-color:#FFD100;
+}
+.contenedor-container input{
+    background-color:#FF5500;
+}
+
+#boton:hover{
+  background-color:#FFD100;
+  cursor:pointer;
+}

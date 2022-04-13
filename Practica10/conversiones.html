@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conversiones</title>
+  </head>
+  <script src="convertir.js"></script>
+  <link rel="stylesheet" href="diseño.css"></link>
+  <body>
+<h1>Practica 4. Conversiones entre sistemas numericos</h1>
+<div class="padre">
+  <div class="contenedor-container">
+    <input type="text" id="num" />
+    <select id="basex">
+      <option value="2">BIN</option><option value="8">OCT</option>
+      <option value="10">DEC</option><option value="16">HEX</option>
+    </select><br />
+    <input type="text" id="convertido" />
+    <select id="basey">
+      <option value="2">BIN</option><option value="8">OCT</option>
+      <option value="10">DEC</option><option value="16">HEX</option>
+    </select><br />
+  </div>
+  <br>
+      <input id="boton"type="button" value="Convertir" onclick="convertir();"/>
+</div>
+
+
+      <footer>Programacion Web//Gerardo Demian Mora Hernandez </footer>
+
+  </body>
+
+</html>
